@@ -32,7 +32,7 @@ public class Produto {
 	public int getEstoque() {
 		return estoque;
 	}
-
+	
 	public void setEstoque(int estoque) {
 		this.estoque = estoque;
 	}
@@ -58,5 +58,20 @@ public class Produto {
 	void saida(int qtdeSaida) {
 		this.estoque = this.estoque - qtdeSaida;
 		
+	}
+
+	public char[] saida() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public char[] producao1() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public char[] producao() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }
